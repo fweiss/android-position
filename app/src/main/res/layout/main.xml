@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- put a space at end of each italic label to prevent clipping -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#333333"
+    >
+	<LinearLayout android:id="@+id/providers_layout"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<ToggleButton android:id="@+id/network_togglebutton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textOn="network"
+	        android:textOff="network"
+	        android:textSize="22sp"
+	        android:paddingLeft="18sp"
+	        android:paddingRight="18sp"/>
+		<ToggleButton android:id="@+id/passive_togglebutton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textOn="passive"
+	        android:textOff="passive"
+	        android:textSize="22sp"
+	        android:paddingLeft="18sp"
+	        android:paddingRight="18sp"/>
+		<ToggleButton android:id="@+id/gps_togglebutton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textOn="gps"
+	        android:textOff="gps"
+	        android:textSize="22sp"
+	        android:paddingLeft="18sp"
+	        android:paddingRight="18sp"/>
+	</LinearLayout>
+		
+   <Spinner 
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/provider_prompt"
+		android:layout_below="@id/providers_layout"
+    />
+  	<TextView
+  		android:id="@+id/fix_group"
+  		style="@style/Label"
+  		android:text="Fix "
+		android:layout_below="@id/spinner"
+  		/>
+	<TextView
+		android:id="@+id/fixTime"
+		style="@style/Field.fix_date"
+		android:layout_below="@id/spinner"
+	    />
+	<TextView
+		android:id="@+id/fixDate"
+		style="@style/Field.fix_date"
+		android:layout_below="@id/fixTime"
+	    />
+  	<TextView
+  		android:id="@+id/provider_label"
+  		style="@style/Label"
+  		android:text="Provider "
+		android:layout_below="@id/fixDate"
+  		/>
+	<TextView
+		android:id="@+id/source_provider"
+		style="@style/Field.fix_provider"
+		android:layout_below="@id/fixDate"
+	    />
+	    
+  	<TextView
+  		android:id="@+id/latitude_label"
+  		style="@style/Label"
+  		android:text="Latitude "
+		android:layout_below="@id/source_provider"
+  		/>
+	<TextView
+		android:id="@+id/latitude"
+		style="@style/Field.latlng"
+		android:layout_below="@id/source_provider"
+	    />
+  	<TextView
+  		android:id="@+id/longitude_label"
+  		style="@style/Label"
+  		android:text="Longitude "
+		android:layout_below="@id/latitude"
+  		/>
+	<TextView
+		android:id="@+id/longitude"
+		style="@style/Field.latlng"
+		android:width="150sp"
+		android:layout_below="@id/latitude"
+		android:layout_alignParentRight="true"
+	    />
+  	<TextView
+  		style="@style/Label"
+  		android:text="Altitude "
+		android:layout_below="@id/longitude"
+  		/>
+	<TextView
+		android:id="@+id/altitude"
+		style="@style/Field"
+		android:layout_below="@id/longitude"
+	    />
+  	<TextView
+  		style="@style/Label"
+  		android:text="Altitude (USGS) "
+		android:layout_below="@id/altitude"
+  		/>
+	<TextView
+		android:id="@+id/usgs_altitude"
+		style="@style/Field"
+		android:layout_below="@id/altitude"
+	    />
+  	<TextView
+  		style="@style/Label"
+  		android:text="Accuracy "
+		android:layout_below="@id/usgs_altitude"
+  		/>
+	<TextView
+		android:id="@+id/accuracy"
+		style="@style/Field"
+		android:layout_below="@id/usgs_altitude"
+	    />
+	    
+  	<TextView
+  		style="@style/Label"
+  		android:text="Bearing "
+		android:layout_below="@id/accuracy"
+  		/>
+	<TextView
+		android:id="@+id/bearing"
+		style="@style/Field"
+		android:layout_below="@id/accuracy"
+	    />
+
+  	<TextView
+  		style="@style/Label"
+  		android:text="Speed "
+		android:layout_below="@id/bearing"
+  		/>
+	<TextView
+		android:id="@+id/speed"
+		style="@style/Field"
+		android:layout_below="@id/bearing"
+	    />
+
+</RelativeLayout>

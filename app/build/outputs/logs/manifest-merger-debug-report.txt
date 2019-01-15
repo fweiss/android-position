@@ -1,0 +1,81 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml:2:1-22:12
+	package
+		ADDED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml:3:5-41
+		INJECTED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml:7:5-16:16
+	android:label
+		ADDED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml:7:48-80
+	android:icon
+		ADDED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml:7:18-47
+activity#com.uttama.android.samples.GlobalPosition
+ADDED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml:8:9-13:20
+	android:screenOrientation
+		ADDED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml:8:83-119
+	android:label
+		ADDED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml:8:50-82
+	android:name
+		ADDED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml:8:19-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml:9:13-12:29
+action#android.intent.action.MAIN
+ADDED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml:10:17-69
+	android:name
+		ADDED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml:10:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml:11:17-77
+	android:name
+		ADDED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml:11:27-74
+activity#com.uttama.android.samples.MockLocation
+ADDED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml:14:6-55
+	android:name
+		ADDED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml:14:16-43
+activity#com.uttama.android.samples.GlobalPositionPreferences
+ADDED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml:15:3-65
+	android:name
+		ADDED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml:15:13-53
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml:18:2-92
+	android:name
+		ADDED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml:18:19-73
+uses-permission#android.permission.ACCESS_MOCK_LOCATION
+ADDED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml:19:2-92
+	android:name
+		ADDED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml:19:19-73
+uses-permission#android.permission.INTERNET
+ADDED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml:20:2-80
+	android:name
+		ADDED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml:20:19-61
+uses-sdk
+INJECTED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml
+INJECTED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml
+INJECTED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml
+INJECTED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml
+		ADDED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml
+		ADDED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/frankw/StudioProjects/GlobalPosition/app/src/main/AndroidManifest.xml

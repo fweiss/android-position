@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="First Category">
+		<CheckBoxPreference android:key="Main_Option"
+			android:title="Main Option" android:defaultValue="true"
+			android:summary="SUMMARY_Main_Option" />
+		<ListPreference android:title="Unit of Length"
+			android:key="linearUnits"
+			android:summary="Select linear unit of measure"
+			android:dependency="Main_Option"
+			android:defaultValue="1"
+			android:entries="@array/linear_units"
+			android:entryValues="@array/linear_units_values" />
+	</PreferenceCategory>
+</PreferenceScreen>

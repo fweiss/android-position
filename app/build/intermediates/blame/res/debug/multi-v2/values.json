@@ -1,0 +1,64 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/frankw/StudioProjects/GlobalPosition/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/frankw/StudioProjects/GlobalPosition/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "2,23,26,29,20,32",
+                        "startColumns": "1,1,1,1,1,1",
+                        "startOffsets": "54,982,1108,1238,855,1355",
+                        "endLines": "19,25,28,31,22,45",
+                        "endColumns": "9,9,9,9,9,9",
+                        "endOffsets": "852,1105,1235,1352,979,1947"
+                    },
+                    "to": {
+                        "startLines": "17,35,38,41,44,47",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "540,1326,1452,1582,1699,1826",
+                        "endLines": "34,37,40,43,46,60",
+                        "endColumns": "9,9,9,9,9,9",
+                        "endOffsets": "1321,1447,1577,1694,1821,2405"
+                    }
+                },
+                {
+                    "source": "/Users/frankw/StudioProjects/GlobalPosition/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "3,2,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "118,55,170",
+                        "endColumns": "51,62,53",
+                        "endOffsets": "165,113,219"
+                    },
+                    "to": {
+                        "startLines": "14,15,16",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "371,423,486",
+                        "endColumns": "51,62,53",
+                        "endOffsets": "418,481,535"
+                    }
+                },
+                {
+                    "source": "/Users/frankw/StudioProjects/GlobalPosition/app/src/main/res/values/arrays.xml",
+                    "from": {
+                        "startLines": "2,8",
+                        "startColumns": "1,1",
+                        "startOffsets": "54,221",
+                        "endLines": "7,13",
+                        "endColumns": "16,16",
+                        "endOffsets": "218,373"
+                    },
+                    "to": {
+                        "startLines": "2,8",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,219",
+                        "endLines": "7,13",
+                        "endColumns": "16,16",
+                        "endOffsets": "214,366"
+                    }
+                }
+            ]
+        }
+    ]
+}

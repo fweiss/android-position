@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="linear_units">
+		<item>Feet (ft)</item>
+		<item>Meters (m)</item>
+		<item>Kilometers (km)</item>
+		<item>Miles (mi)</item>
+	</string-array>
+	<string-array name="linear_units_values">
+		<item>feet</item>
+		<item>meters</item>
+		<item>kilometers</item>
+		<item>miles</item>
+	</string-array>
+</resources>

@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mock"
+          android:title="Mock Location" />
+    <item android:id="@+id/settings"
+          android:title="Settings" />
+</menu>
